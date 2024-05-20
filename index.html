@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elo Rating System in League of Legends</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #0779e4;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border-left: #0779e4 5px solid;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+            border-top: #0779e4 3px solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elo Rating System in League of Legends</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Introduction</h2>
+            <p>The Elo rating system is a system like MMR and it is widely used in competitive gaming, including League of Legends, to determine the skill levels of players and teams. Originally developed for chess by Arpad Elo in the 1960s, it has since been adapted for various other competitive activities, including eSports.</p>
+        </section>
+        <section>
+            <h2>How ELO system Works in League of Legends</h2>
+            <p>In League of Legends, the Elo rating system is used to figure out how good players are. Players get a number to show their skill level. If the number is high, they're really good.</p>
+            <p>This system looks at lots of things like how many times a player gets kills, dies, helps teammates, and earns gold in each game. It also sees if players win or lose matches.</p>
+            <p>The system not only checks wins and losses but also looks at how tough the opponents are and how well teammates perform. It tries to make sure everyone has a fair chance.</p>
+            <p>The Elo system also watches out for cheating or unfair play. If someone tries to cheat, they'll get in trouble.</p>
+            <p>Overall, the Elo system in League of Legends makes sure that players are matched fairly and that everyone has fun playing.</p>
+        </section>
+        <section>
+<h2>MMR and ELO Rating System in League of Legends</h2>
+    <p>In League of Legends, both MMR (Matchmaking Rating) and the ELO rating system are used to measure player skill and ensure fair matches. MMR is a hidden value used by the game's matchmaking system to pair players of similar skill levels in matches. This rating is adjusted based on the outcome of each game, increasing with wins and decreasing with losses.</p>
+    <p>The ELO rating system, originally designed for chess, serves a similar purpose. In this system, players earn points when they win and lose points when they are defeated. The number of points gained or lost depends on the relative ratings of the opponents. Higher-rated opponents provide more points when defeated, while lower-rated opponents yield fewer points.</p>
+    <p>In League of Legends, the principles of the ELO system are applied to <a href="https://lolmmr.com/">calculate MMR in League of Legends</a>
+ . When a player wins, their MMR is increased, reflecting an improvement in skill. Conversely, a loss results in a decrease in MMR. This process ensures that players are matched with opponents of comparable skill, promoting balanced and competitive gameplay.</p>
+
+
+        </section>
+        <section>
+            <h2>Rating Adjustment in Matches</h2>
+            <p>In League of Legends, when players finish a game, their Elo rating might go up or down. This depends on if they win or lose and who they were playing against.</p>
+            <p>If a player beats someone with a higher rating, their rating goes up more. But if they lose to someone with a lower rating, it might drop a bit. It's like a reward for doing well against tough opponents and a lesson if they lose to someone not as good.</p>
+            <p>So, each game helps decide how good a player is, and the rating changes based on that.</p>
+        </section>
+        <section>
+            <h2>Factors Influencing Rating Changes</h2>
+            <ul>
+                <li><strong>Difference in Ratings:</strong> The gap between the ratings of two players in a match plays a significant role in determining rating changes. If a player with a higher rating defeats someone with a lower rating, they might not gain many points because they were expected to win. Conversely, if a lower-rated player wins against a higher-rated opponent, they can earn a lot of points because it's considered unexpected.</li>
+                <li><strong>Performance in the Game:</strong> Individual performance metrics such as kills, deaths, assists, gold earned, and objectives secured are also taken into account. Players who perform exceptionally well in a match, regardless of whether they win or lose, may see an increase in their Elo rating. Conversely, players who underperform might experience a decrease.</li>
+                <li><strong>Team Performance:</strong> League of Legends is a team-based game, so the performance of a player's team can impact their rating changes. Even if a player performs well individually, if their team loses, their rating might still decrease, albeit less than if they had performed poorly.</li>
+                <li><strong>Opponent's Performance:</strong> The Elo system considers not only the outcome of the match but also the performance of the opponents. Beating a team with higher-rated players can result in a larger rating increase, while losing to lower-rated opponents might lead to a more significant rating drop.</li>
+                <li><strong>Match Outcome:</strong> Ultimately, whether a player's team wins or loses the match is crucial. Winning usually leads to a rating increase, while losing results in a decrease. However, the magnitude of the rating change depends on the factors mentioned above.</li>
+                <li><strong>Consistency:</strong> Consistency in performance over multiple matches is also taken into account. Players who consistently perform well over time are likely to see gradual increases in their Elo rating, while inconsistent performance might lead to fluctuations.</li>
+                <li><strong>Uncertainty:</strong> New or less experienced players have higher uncertainty in their ratings, which means their ratings can change more dramatically with each match. As players play more games and the system becomes more confident in their skill level, rating changes become less volatile.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Uncertainty and Stability</h2>
+            <p>The Elo rating system also takes into account the uncertainty of a player's skill level, especially for new or less experienced players. Initially, players start with a provisional Elo rating that is subject to larger fluctuations until they have played enough matches for the system to accurately assess their skill level. As players participate in more matches, their Elo ratings become more stable, and the system becomes more confident in its predictions of their performance.</p>
+        </section>
+        <section>
+            <h2>Application to Teams</h2>
+            <p>In addition to individual ratings, the Elo system can also be applied to teams in League of Legends. Team ratings are calculated based on the average Elo ratings of the individual players on the team. This allows for the assessment of team performance in ranked matches and tournaments.</p>
+        </section>
+        <section>
+            <h2>Advantages</h2>
+            <p>One of the advantages of the Elo rating system is its simplicity and effectiveness in determining player skill levels. It provides a clear and objective measure of performance, allowing players to track their progress and compare themselves to others in the community. Additionally, the system can adapt to changes in player skill over time, ensuring that ratings remain accurate and reflective of current abilities.</p>
+        </section>
+        <section>
+            <h2>Limitations</h2>
+            <p>However, the Elo rating system is not without its limitations. It relies on the assumption that player skill levels can be accurately represented by a single numerical value, which may not always be the case in a complex game like League of Legends where individual performance can vary widely from match to match. Additionally, the system may struggle to account for factors such as team composition, communication, and strategy, which can have a significant impact on match outcomes.</p>
+        </section>
+        <section>
+            <h2>Conclusion</h2>
+            <p>Despite these limitations, the Elo rating system remains a fundamental tool for competitive gaming, including League of Legends. By providing a standardized method for measuring player and team skill levels, it helps to maintain fairness and competitiveness in the game, ensuring that matches are engaging and rewarding for all participants.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Elo Rating System Analysis. All rights reserved.</p>
+    </footer>
+</body>
+</html>
